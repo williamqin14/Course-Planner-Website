@@ -1,5 +1,5 @@
 # Course-Planner-Website
-Fullstack application with React and Express.
+Fullstack application with React and Express, and UI built with bootstrap.
 
 Frontend:
 * App.js (React)
