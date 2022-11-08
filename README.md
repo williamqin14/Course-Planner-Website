@@ -2,7 +2,7 @@
 Fullstack application with React and Express, and UI built with bootstrap.
 
 Frontend:
-* App.js (React)
+* App.js (React, Bootstrap)
 * elements/course-list.js
 * elements/create-course.js
 * elements/edit-course.js
