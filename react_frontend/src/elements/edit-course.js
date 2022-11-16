@@ -16,6 +16,7 @@ export default function EditCourse() {
             .catch(err => {
                 console.log(err);
             });
+            // eslint-disable-next-line
     }, []);
 
     function onChangeCourseCode(e){
@@ -49,7 +50,7 @@ export default function EditCourse() {
         const newCourse = {
             code: course.code,
             name: course.name,
-            professor: (course.fname!=undefined) ? course.fname + ' ' + course.lname : course.professor,
+            professor: (course.fname!==undefined) ? course.fname + ' ' + course.lname : course.professor,
             semester: course.semester
         }
         axios.post('http://localhost:4000/update/'+slug.id, newCourse) //useParams = this.props.match.params 
